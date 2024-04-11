@@ -5,5 +5,48 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #000000;
+    color: #e7e1e1;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns:auto auto  ;
+    grid-template-rows:auto auto ;
+    grid-gap: 10px;
+    padding: 100px;
+    background-image: url(/storage/img/system.svg), url(/storage/img/Circle\ bg.svg);
+
+    background-size: cover;
+}
+
+
+
+
+.boton{
+    border: 2px solid #000000;
+    grid-column: 1;
+    grid-row: 2;
+    cursor: pointer;
+    background-color: #e61b1b;
+    width: 100%;
+    
+
+}
+.Titulo{
+    border: 2px solid rgb(214, 32, 32);
+    grid-column: 1;
+    grid-row: 1;
+    ;
+
+}
+.Texto{
+    border: 2px solid rgb(214, 32, 32);
+    grid-column: 1;
+    grid-row: 3;
+   
+
 }
