@@ -4,3 +4,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "AvenirTitulo";
+    src: url(../storage/font/avenir/Avenir\ Heavy.ttf);
+
+}
+@font-face {
+    font-family: "AvenirTexto";
+    src: url(../storage/font/avenir/avenir_roman_12.ttf);
+}
+
+
+
+
+.contenedor div{
+border: 1px solid;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: ;
+}
+.texto{
+    display: grid;
+    grid-column: span 4;
+    grid-row: span 8;
+    align-self: center;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
