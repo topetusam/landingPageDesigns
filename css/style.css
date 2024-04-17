@@ -37,7 +37,7 @@ p{
 }
 
 .textoabajo{
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 h3{
@@ -47,6 +47,8 @@ h3{
 }
 
 .imagen{
-    
+    position: relative;
+    left: 10vh;
+
 }
 
