@@ -26,14 +26,15 @@ text-align: center;
 
 button{
     font-family: "AvenirTexto", sans-serif;
-    width: 20vh;
+    width: 18vh;
     align-items: center;
-    padding: 3vh;
+    padding: 2vh;
     background-color: #252525;
     color: white;
     border-radius: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 7vh;
     margin-top: 2vh;
+    font-size: 2vh;
 }
 
 .contenedor{
@@ -67,8 +68,8 @@ p{
     font-size: 25px;
     justify-content: center;
     margin-top: 2vh;
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin-left: 32vh;
+    margin-right: 32vh;
     font-family: "AvenirTexto",sans-serif;
     color: #252525 80% transparent;
 }
