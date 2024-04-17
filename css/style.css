@@ -17,6 +17,17 @@
     display: grid;
     grid-template-columns: auto auto auto ;
     grid-template-rows: auto ;
+    margin-left: 9vh;
+    
+}
+button{
+    display: grid;
+    padding: 3vh;
+    margin-bottom: 9vh;
+    height: 1vh;
+    margin-right: 30vh;
+    align-content: center;
+    border-radius: 1vh;
     
 }
 
@@ -24,7 +35,7 @@
 .imagenes_top{
     height: 100vh;
 
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     display: grid;
     justify-content: center;
@@ -36,8 +47,19 @@
 .texto{
     display: grid;
     grid-template-columns: auto auto ;
+    margin-top: 30vh;
 
 }
+h1{
+    font-size: 10vh;
+}
+
+p{
+    font-size: 4vh;
+
+}
+
+
 
 .derecha{
     margin-top: 45vh;
