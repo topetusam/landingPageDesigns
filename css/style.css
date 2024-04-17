@@ -18,7 +18,7 @@
 
 
 .contenedor  div{
-border: 1px solid;
+
 background-color: #ffffffcc;
 text-align: center;
 
@@ -26,10 +26,13 @@ text-align: center;
 
 button{
     
-    width: 4vw;
-    height: 2vw;
+    width: 23vh;
     align-items: center;
-    border: 3px solid red;
+    padding: 3vh;
+    background-color: #252525;
+    color: white;
+    border-radius: 2vw;
+    margin-bottom: 4vw;
 }
 
 .contenedor{
@@ -47,12 +50,15 @@ button{
     grid-column: 1;
     grid-row: 1;
     align-self: center;
-    font-size: 64px;
+    font-size: 51px;
+    margin-left: 12vw;
+    margin-right: 12vw;
    
 }
 
 p{
-    font-size: 24px;
+    font-size: 22px;
+
 }
 
 
@@ -62,8 +68,6 @@ p{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     gap: 2vw;
-    margin-right: 50vw;
     align-content: center;
-    justify-content: center;
 
 }
