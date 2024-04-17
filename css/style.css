@@ -9,26 +9,34 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    padding: 16vh;
+    padding: 20vh;
+    text-align: left;
 }
 
 .top{
     display: grid;
     grid-template-columns: auto auto auto ;
-    grid-template-rows: auto auto ;
+    grid-template-rows: auto ;
     
 }
 
 
 .imagenes_top{
     height: 100vh;
-    width: 100%;
+
     grid-template-columns: auto auto ;
     grid-template-rows: auto;
     display: grid;
     justify-content: center;
     align-items: center;
     gap: 4vh;
+    margin-right: 10vh;
+}
+
+.texto{
+    display: grid;
+    grid-template-columns: auto auto ;
+
 }
 
 .derecha{
