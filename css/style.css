@@ -4,3 +4,49 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+.container{
+    display :grid;
+    padding: 15vh;
+    grid-template-columns: auto auto ;
+    grid-row: auto;
+    gap: 1vh;
+
+}
+
+h1{
+    font-size: 8vh;
+}
+
+button{
+    background-color: #252525;
+    color: white;
+    padding: 2vh;
+    text-align: center;
+    font-size: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    border-radius: 1vh;
+    margin-top: 3vh;
+}
+
+p{
+    font-size: 3vh;
+    text-align: left;
+}
+
+.textoabajo{
+    margin-top: 20vh;
+}
+
+h3{
+    font-size: 5vh;
+    text-align: left;
+    color: #252525 transparent 55%;
+}
+
+.imagen{
+    
+}
+
