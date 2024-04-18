@@ -4,3 +4,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: 1px solid red;
+}
+
+h1{
+    font-size: 10vh;
+}
+
+h3{
+    font-size: 3vh;
+}
+
+
+
+
+.texto{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    border: 1px solid purple;
+}
+
+.textoabajo{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    border: 1px solid blue;
+}
