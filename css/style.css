@@ -4,16 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: "AvenirTitulo";
-    src: url(../storage/font/avenir/Avenir\ Heavy.ttf);
-
-}
-@font-face {
-    font-family: "AvenirTexto";
-    src: url(../storage/font/avenir/avenir_roman_12.ttf);
-}
-
 
 
 
@@ -55,13 +45,14 @@ button{
     font-size: 33px;
     margin-left: 14vw;
     margin-right: 14vw;
-    font-family: "AvenirTitulo", sans-serif;
+    
     color: #252525;
 
    
 }
 h1 {
     line-height: 9vh;
+    font-family: "Avenir-Heavy";
 }
 
 p{
@@ -70,7 +61,7 @@ p{
     margin-top: 2vh;
     margin-left: 32vh;
     margin-right: 32vh;
-    font-family: "AvenirTexto",sans-serif;
+    font-family: "Avenir-Roman";
     color: #252525 80% transparent;
 }
 
