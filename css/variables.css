@@ -2,3 +2,12 @@
     --color-prymary:#b257c9;
 }
 
+@font-face {
+    font-family: "Display-fair";
+    src: url(/storage/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: "Work-Sans";
+    src: url(/storage/font/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
