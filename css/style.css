@@ -50,7 +50,7 @@ right: 13em;
 }
 
 h1{
-    font-size: 5em;
+    font-size: 6em;
     color: #ffffff;
     grid-row: 1;
 
@@ -64,6 +64,7 @@ button{
     font-size: 2em;
     border-radius: 10em;
     grid-row: 3;
+    margin-right: 6em;
 
 }
 
@@ -81,7 +82,6 @@ p{
     grid-template-rows: auto auto auto;
     grid-column: 2;
     border: 1px solid black;
-    padding: 5%;
     margin-right: 10em;
-    row-gap: 3em;
+    row-gap: 2em;
 }
