@@ -9,22 +9,23 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    padding: 20%;
+    padding: 5%;
     justify-content: center;
 }
 
 h1{
-    font-size: 6.25em;
+    font-size: 4em;
     color: #252525;
-    margin-left: 2.5em;
+    margin-left: 0.5em;
     font-family: "Avenir-Heavy";
+    align-content: left;
 }
 
 .texto{
     grid-row: 2;
     position: relative;
-    bottom: 2.5em;
-    font-size: 1.875em;
+    bottom: 1em;
+    font-size: 1.5em;
     font-family: "Avenir-Roman";
     color: #25252580;
 }
@@ -33,9 +34,11 @@ h1{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    gap: 12.5%;
+    gap: 8%;
     grid-row: 3;
     margin-left: 2.5em;
+    position: relative;
+    bottom: 5em;
 }
 
 h3{
@@ -49,5 +52,5 @@ h3{
 .imagenes{
     grid-row: 3;
     position: relative;
-    bottom: 3.125em;
+    bottom: 3em;
 }
