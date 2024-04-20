@@ -1,65 +1,63 @@
-@import url(variables.css);
-*{
+@import url('variables.css');
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-.container{
-    display:grid;
+.container {
+    display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto ;
+    grid-template-rows: auto auto;
     border: 1px solid #e00d0d;
-    padding: 20vh;
+    padding: 3%;
     justify-content: center;
     
 }
 
-h1{
+h1 {
     color: #252525;
-    font-size: 7vh;
+    font-size: 4.375em; 
     text-align: left;
-    margin-left: 6vh;
+    margin-left: 2.625em; 
+
 }
 
-.texto{
+.texto {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row: 1;
-    border: 1px soid black solid;
+    border: 1px solid black;
 }
 
-.abajo{
+.abajo {
     grid-row: 2;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
-    
-    
-    column-gap: 1.5vh;
-    padding: 5vh;
+    column-gap: 1.5%; 
+    padding: 12.5%; 
+
+    border: 1px solid black;
+    position:relative;
+    bottom: 8em;
+
 }
 
-
-p{
-    font-size: 2vh;
+p {
+    font-size: 1.6em; 
     grid-row: 2;
     position: relative;
-    bottom: 2vh;
+    bottom: 0.625em; 
 }
 
-h3{
+h3 {
     color: #252525cc;
-    font-size: 3vh;
+    font-size: 1.875em; 
     grid-row: 1;
-    margin-bottom: 2vh;
-    
+    margin-bottom: 0.625em; 
 }
 
-.imagen{
+.imagen {
     grid-row: 3;
-    
-    
-    
 }
