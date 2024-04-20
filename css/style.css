@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    padding: 3%;
+    padding: 5%;
     justify-content: center;
     
 }
@@ -18,7 +18,8 @@ h1 {
     color: #252525;
     font-size: 4.375em; 
     text-align: left;
-    margin-left: 2.625em; 
+    margin-left: 2.3em;
+    font-family: "titulo";
 
 }
 
@@ -26,6 +27,7 @@ h1 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row: 1;
+    font-family: "texto";
 }
 
 .abajo {
@@ -34,26 +36,29 @@ h1 {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
     column-gap: 1.5%; 
+    row-gap: 5%;
     padding: 12.5%; 
     position:relative;
-    bottom: 8em;
+    bottom: 6em;
+
 
 }
 
 p {
     font-size: 1.6em; 
     grid-row: 2;
-    position: relative;
-    bottom: 0.625em; 
+    color: #252525cc;
 }
 
 h3 {
-    color: #252525cc;
+    color: #25252540;
     font-size: 1.875em; 
     grid-row: 1;
-    margin-bottom: 0.625em; 
+
+    font-family: "texto";
 }
 
 .imagen {
     grid-row: 3;
+    
 }

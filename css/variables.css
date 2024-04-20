@@ -1,3 +1,12 @@
 :root{
     --color-prymary:#b257c9;
 }
+@font-face {
+    font-family: "titulo";
+    src: url(/storage/font/avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "texto";
+    src: url(/storage/font/avenir/Avenir-Roman.ttf);
+}
