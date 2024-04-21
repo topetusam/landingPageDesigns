@@ -12,11 +12,12 @@ body{
 
 .container{
     display: grid;
-    grid-row: 1;
+    
     grid-template-columns: auto auto;
     grid-template-rows: auto auto ;
     padding: 5% 5%;
     border: 1px solid purple;
+
     
 }
 
@@ -25,7 +26,11 @@ body{
     grid-template-columns: auto;
     grid-template-rows: auto auto auto ;
     border: 1px solid red;
-    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    position: relative;
+    left: 15em;
+    
 }
 
 h1{
@@ -49,14 +54,15 @@ button{
     grid-column: 1;
     grid-row: 1;
     z-index: 1;
-    margin-left: 80em;
 }
 
 
 .imagen1{ 
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
-    margin-left:30em;
+    z-index: 1;
+    margin-left: 20em;
+    
     
 }
 
@@ -69,9 +75,11 @@ button{
     border: 1px solid black;
     border-radius: 10em;
     padding: 2% 2%;
-    justify-content: center;
-    
-    
+    margin-right: 30em;
+    justify-content: center;    
+    position: relative;
+    right: 20em;
+    background-color: #97A3A3 transparent transparent;
 
 }
 
