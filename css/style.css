@@ -29,19 +29,24 @@ body{
     z-index: 2;
     justify-content: center;
     position: relative;
-    left: 15em;
+    left: 20em;
+    height: 25em;
+    row-gap: 2em;
+
     
 }
 
 h1{
     grid-row: 1;
-    font-size: 8em;
+    font-size: 6em;
+    font-family: "titulo";
 
 }
 
 .texto1{
     grid-row: 2;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: "texto";
 }
 
 button{
@@ -51,12 +56,18 @@ button{
     border-radius: 10em;
     font-size: 1.5em;
     align-content: center;
+    font-family: "texto";
+    background-color: #1a1616;
+    color: #ffffff;
 }
 
 .imagen2{
     grid-column: 1;
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
     z-index: 1;
+    border: 1px solid #1a1616;
+
 }
 
 
@@ -64,8 +75,9 @@ button{
     grid-column: 1;
     grid-row: 2;
     z-index: 1;
-    margin-left: 20em;
-    
+    margin-left: 15em;
+    position: relative;
+    bottom: 7em;
     
 }
 
@@ -78,24 +90,29 @@ button{
     border: 1px solid black;
     border-radius: 10em;
     padding: 2% 2%;
-    
     justify-content: center;    
     position: relative;
-    right: 35em;
-    background-color: #F8E1E17f;
+    right: 30em;
+    background-color: #F8E1E14d;
     height: 20em;
-    margin-top: 10em;
+    margin-top: 5em;
+    column-gap: 5em;
+    z-index: 2;
 
 }
 
 h3{
     grid-row: 1;
-    font-size: 3em;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: "texto";
+    
 }
 
 p{
     grid-row: 2;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: "texto";
 }
 
 
