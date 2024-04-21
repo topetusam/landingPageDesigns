@@ -14,7 +14,7 @@ body{
 .container{
     max-width: 100%;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
     border: 1px solid black;
     padding: 10%;
@@ -82,7 +82,7 @@ p{
 
 .texto{
     display: grid;
-    grid-template-columns: auto ;
+    grid-template-columns: 1fr ;
     grid-template-rows: auto auto auto;
     grid-column: 2;
     margin-right: 30em;
