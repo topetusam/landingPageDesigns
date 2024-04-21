@@ -46,8 +46,11 @@ h1{
 
 button{
     grid-row: 3;
-    padding: 2% 2%;
-    margin-right: 50em;
+    padding: 0.5em 0.5em;
+    margin-right: 20em;
+    border-radius: 10em;
+    font-size: 1.5em;
+    align-content: center;
 }
 
 .imagen2{
@@ -75,20 +78,24 @@ button{
     border: 1px solid black;
     border-radius: 10em;
     padding: 2% 2%;
-    margin-right: 30em;
+    
     justify-content: center;    
     position: relative;
-    right: 20em;
-    background-color: #97A3A3 transparent transparent;
+    right: 35em;
+    background-color: #F8E1E17f;
+    height: 20em;
+    margin-top: 10em;
 
 }
 
 h3{
     grid-row: 1;
+    font-size: 3em;
 }
 
 p{
     grid-row: 2;
+    font-size: 1.5em;
 }
 
 
