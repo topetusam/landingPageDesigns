@@ -4,3 +4,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.body{
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    width: 100%;
+    height: 100%;    
+    background-color: #232323;
+}
+
+.texto{
+    grid-column: 1;
+    font-size: 2vw;
+    color: #ffffff;
+    margin-top: 5vw;
+    margin-left: 15vw;
+}
+
+.texto1{
+color: #FEC3C7;
+}
+.texto2{
+    color:#9AD7F3;
+}
+
+.texto3{
+    color: #6BDFDA;
+}
+
+
+.texto p{
+    font-size: 1vw;
+}
+
+
+button{
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 0.5vw;
+    grid-column: 2;
+    width: 30vw;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+}
